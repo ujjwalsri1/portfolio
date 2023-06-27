@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
+@import url(https://fonts.googleapis.com/css2?family=Mulish&display=swap);
+html{
+  font-size: 100%;
+  background-color: whitesmoke;
+}
+body{
+  font-family: 'Muli',sans-serif;
+  background-color:white;
+}
+section#header {
+  background-image: url(bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: 100rem;
+  border-radius: 0.5rem;
+  
+}
+section.hc {
+  background-color: #0abcf9;
+  background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+  column-span: all;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mx-auto {
+  margin-right: auto!important;
+  margin-left: auto!important;
+  margin-top: 8em;
+  color: #3e2093;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: aliceblue;
+  
+}
+.bg-body-tertiary {
+  --bs-bg-opacity: 1;
+  background-color: #3e2093!important;
+}
+.navbar a{
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.row{
+  margin-bottom: 2rem;
+}
+.navbar a:hover{
+  color: #1aff1a;
+  text-decoration: underline;
+}
+a.dropdown-item {
+  color: darkblue;
+}
+a.dropdown-item:hover {
+  color: green;
+}
+button.navbar-toggler {
+  background-color: azure;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+i.fa.fa-university {
+  font-size: 2.5rem;
+    color: darkcyan;
+    margin-right: 2.5rem;
+}
+i.fa.fa-building-o {
+  font-size: 2.5rem;
+    color: darkcyan;
+    margin-right: 2.5rem;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: 13rem;
+  width: 14rem;
+  border-radius: 1rem;
+}
+
+@media(max-width:998px){
+  html{
+    font-size: 75%;
+    
   }
-  to {
-    transform: rotate(360deg);
+  
+}
+@media(max-width:768px){
+  html{
+    font-size: 65%;
+    
   }
+  
 }
