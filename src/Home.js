@@ -13,11 +13,11 @@ function Home() {
       <div className="col-10 mx-auto">
         <div className="row">
         <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-        <h1>Ujjwal Srivastava <strong className="brand-name">Btech CSE</strong> </h1>
+        <h1 className="types">Ujjwal Srivastava  </h1>
         <h2 className="my-3">(Looking for internship opportunities) </h2>
         </div>
         <div className="col-lg-6 order-1 order-lg-2 header-img">
-        <img src="217602.jpg" className="img-fluid animated" alt="ujjwal srivastava"></img>
+        <img src="217602.jpg" className="img-fluid animated" alt="Ujjwal Srivastava"></img>
         </div>
         </div>
       </div>
@@ -37,11 +37,9 @@ function Home() {
                             
 
 <div className="container">
-<p className="card-text"> Motivated and dedicated Computer Science Engineering student actively seeking internship opportunities to apply and enhance my technical knowledge and skills. With a passion for problem-solving and a keen interest in software development, I am committed to contributing to innovative projects that push the boundaries of technology.
+<marquee className="card-text" direction="up" scrollamount="2.5"> Motivated and dedicated Computer Science Engineering student actively seeking internship opportunities to apply and enhance my technical knowledge and skills. With a passion for problem-solving and a keen interest in software development, I am committed to contributing to innovative projects that push the boundaries of technology.
 Throughout my academic journey, I have developed a strong foundation in programming languages such as Python and Java. I have gained hands-on experience in developing and implementing algorithms, data structures and object-oriented design principles . In addition, my coursework has exposed me to various areas of computer science, including database management, web development, and artificial intelligence.
-During group projects and team-based activities, I have effectively communicated and collaborated with diverse teams, allowing me to understand the value of teamwork and the importance of effective communication in achieving project goals.
-I am adept at breaking down complex challenges into manageable tasks and leveraging my logical thinking abilities to develop efficient and elegant solutions. My passion for continuous learning drives me to stay updated with the latest industry trends and emerging technologies, ensuring that my skills remain relevant and adaptable.
-As an intern, I am eager to contribute my skills and knowledge to a dynamic organization where I can actively participate in the development of innovative software solutions. I am confident that my strong work ethic, enthusiasm, and dedication will make me a valuable addition to any team.</p>
+During group projects and team-based activities</marquee>
 </div>
 
 
@@ -62,7 +60,7 @@ As an intern, I am eager to contribute my skills and knowledge to a dynamic orga
         <div class="timeline-logo">
         <i class="fa fa-building-o"></i>
         </div>
-        <h3 class="experience-designation  m0 m-blue">Jagat <br/>Taran Golden Jubilee School </h3>
+        <h3 class="experience-designation  m0 m-blue">Jagat Taran Golden Jubilee School </h3>
         <h4 class="experience-company-name"> CBSE affiliated</h4>
         <h5 class="experience-duration m0">2021 passed out</h5>
 
@@ -75,7 +73,7 @@ As an intern, I am eager to contribute my skills and knowledge to a dynamic orga
         <div class="timeline-logo">
         <i class="fa fa-university"></i>
         </div>
-        <h3 class="experience-designation  m0 m-blue"> United <br/>College Of Engineering And Research </h3>
+        <h3 class="experience-designation  m0 m-blue"> United College Of Engineering And Research </h3>
         <h4 class="experience-company-name">AKTU affiliated </h4>
         <h5 class="experience-duration m0"> 2021 - 2025 </h5>
         <p class="experience-description text-align-justify">Currently I am persuing Btech CSE from United College Of Engineering And Research Prayagraj.At United Group of Institution they offers a wide range of popular Courses which provide career opportunities for students, depending on their area of specialization and individual interests.UGI offers NBA accredited courses, Quality recognized by the World Bank and boasts of more than 14000 alumni base. United Group of Institutions, has set extraordinary benchmark in job offers every year, transcending previous records. </p>
@@ -87,7 +85,7 @@ As an intern, I am eager to contribute my skills and knowledge to a dynamic orga
         <div class="timeline-logo">
         <i class="fa fa-server"></i>
         </div>
-        <h3 class="experience-designation m0 m-blue">Full Stack <br/>Web Development </h3>
+        <h3 class="experience-designation m0 m-blue">Full Stack Web Development </h3>
         <h4 class="experience-company-name">In IBM</h4>
         <h5 class="experience-duration m0"> 2022 </h5>
 

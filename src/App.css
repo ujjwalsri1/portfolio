@@ -2,6 +2,7 @@
 html{
   font-size: 100%;
   background-color: whitesmoke;
+  
 }
 body{
   font-family: 'Muli',sans-serif;
@@ -84,7 +85,112 @@ i.fa.fa-building-o {
 @media(max-width:768px){
   html{
     font-size: 65%;
-    
+    margin-left: 0.3rem;
+    font-size: 65%;
+    margin-right: 0.3rem;
+    margin-bottom: 1rem;
   }
+  
+}
+.my-3 {
+  animation: blinker 1.5s linear infinite;
+  
+  color: #F52916;
+  font-family: sans-serif;
+}
+@keyframes blinker {
+  50% {
+      opacity: 0;
+  }
+}
+
+.navt{
+  display: flex;
+    
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-right: 1.2rem;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+
+.types {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+ /* border-right: .15em solid yellow; The typwriter cursor */
+  
+/*   margin: 0 auto; Gives that scrolling effect as the typing happens */
+ /*  letter-spacing: .15em;  Adjust as needed */
+  
+    white-space: nowrap; /* Keeps the content on a single line */
+    animation: 
+    typing 3s steps(30, end),
+    blink-caret .5s step-end infinite;
+    animation-iteration-count: 100;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
   
 }

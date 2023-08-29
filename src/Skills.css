@@ -108,7 +108,8 @@ i.fa.fa-server {
 }
 
 .timeline-container {
-  padding: 8px;
+  padding: 8rem;
+  display: inline;
 }
 
 .timeline-logo {
@@ -147,6 +148,7 @@ i.fa.fa-server {
 
 .experience-designation {
   font-size: 1.4rem;
+  padding-left: 2rem;
 }
 
 .experience-company-name {

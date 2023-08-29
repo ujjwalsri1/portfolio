@@ -33,7 +33,7 @@ function Skills() {
         
 
 <div className="container">
-  <div className="skills html">Data Structures Algorithm 90%</div>
+  <div className="skills html">DSA 90%</div>
   <div className="skills css">HTML,CSS,JS 75%</div>
   <div className="skills js">MongoDB 100%</div>
 <div className="skills php">ReactJs 75%</div>
@@ -90,7 +90,7 @@ internship. </p>
         <div class="timeline-logo">
         <i class="fa fa-server"></i>
         </div>
-        <h3 class="experience-designation m0 m-blue">Full Stack <br/>Web Development </h3>
+        <h3 class="experience-designation m0 m-blue">Full Stack Web Development </h3>
         <h4 class="experience-company-name">In IBM</h4>
         <h5 class="experience-duration m0"> 2022 </h5>
 
